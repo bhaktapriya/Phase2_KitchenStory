@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\alogin",
+    "\\src\\app\\notfound",
+    "\\src\\app\\payinitiated",
+    "\\src\\app\\payment",
+    "\\src\\app\\userpage",
+    "\\src\\assets",
+    "\\src\\environments"
+  ],
+  "PreviewInSolutionExplorer": false
+}

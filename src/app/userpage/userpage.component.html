@@ -1,0 +1,31 @@
+<h2>*----------USER PAGE----------*</h2>
+{{msg1}} <hr/>
+<h2>List of Food Items</h2>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Food ID</th> <th>Name</th><th>Price</th> <th>Select</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor='let i of item'>
+            <td>{{i.id}}</td> <td>{{i.iname}}</td><td>{{i.price}}</td>
+        
+            <td><a href="#" (click)='getitembyID(i.id)'>Order</a></td>
+    </tr>
+
+    </tbody>
+
+</table>
+{{msg}}<hr/>
+
+Food ID:<input type ="number"[(ngModel)]='z.id'/><br/> <br/>
+Name:<input type ="text"[(ngModel)]='z.iname'/><br/> <br/>
+price:<input type="number"[(ngModel)]='z.price'/><br/> <br/>
+<input type="button" value="Order" (click)='validateUser()'>
+<!--button (click)='z={msg}'>Order</button--!>
+
+
+
+
+

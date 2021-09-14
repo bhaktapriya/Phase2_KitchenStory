@@ -1,0 +1,23 @@
+<h2>*----------REGISTATION PAGE----------*</h2> <br/>
+<table border='2'>
+    <tr>
+        <td>Email Id</td>
+        <td><input type="text" [(ngModel)]='Eid'></td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td><input type="text"[(ngModel)]='Name'></td>
+    </tr>
+    <tr>
+        <td>Phone Number</td>
+        <td><input type="number"[(ngModel)]='phonenumber'></td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password"[(ngModel)]='pwd'></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="button" value="Register" (click)='validateUser()'></td>
+    </tr>
+    </table>

@@ -1,0 +1,16 @@
+<h2>*----------ADMIN LOGIN PAGE----------*</h2>
+<table border="2">
+    <tr>
+        <td>Admin Name</td>
+        <td><input type="text" [(ngModel)]='uname'></td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password"[(ngModel)]='pwd'></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="button" value="Login" (click)='validateUser()'></td> 
+    </tr>
+</table>
+{{msg}}
